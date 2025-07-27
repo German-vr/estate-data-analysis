@@ -21,8 +21,8 @@ This analysis seeks to understand the customer profile and building characterist
 ## 🧠 Insights
 
 - Most customers were aged **48–71**, primarily middle-aged and senior adults, with the majority residing in **California, USA**.
-- **Type 2 buildings** are the most in-demand, followed closely by Type 3. **Type 5** is the least sought after.
-- **Type 2 buildings** are also the most expensive. **Type 4** offers the best deal satisfaction; it has the largest area and a moderate mean price.
+- **Building 2** is the most in-demand, followed closely by building 3. **Building 5** is the least sought after.
+- **Building 2** is also the most expensive. **Building 4** offers the best deal satisfaction; it has the largest area and a moderate mean price.
 - A **sales boom occurred in 2007**, followed by a sharp decline in 2008.
 - In the U.S., sales were heavily concentrated in a few **top-performing states**.
 - The **negative covariance** between `age` and property `price` suggests that the two variables tend to move in opposite directions.
@@ -39,7 +39,7 @@ Key preprocessing steps include:
 📝 [View preprocessing notebook](notebooks/1_data_preprocessing.ipynb)
 
 ## 📊 Analysis 
-- Studied descriptive statistics focusing on buiding type, country, and state
+- Studied descriptive statistics focusing on buiding, country, and state
 - Analyzed customer age in interval categories and properties
 - Examined the relationship between customer age and properties (covariance and correlation)
 
