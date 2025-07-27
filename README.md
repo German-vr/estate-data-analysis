@@ -25,6 +25,23 @@ This analysis seeks to understand the customer profile and building characterist
 - **Type 2 buildings** are also the most expensive. **Type 4** offers the best deal satisfaction; it has the largest area and a moderate mean price.
 - A **sales boom occurred in 2007**, followed by a sharp decline in 2008.
 - In the U.S., sales were heavily concentrated in a few **top-performing states**.
+- The **negative covariance** between `age` and property `price` suggests that the two variables tend to move in opposite directions.
+- The **correlation value of -0.17** betwee `age` and property `price` indicates that the linear relationship is very weak, almost nonexistent.
+
+## 🧹 Preprocessing
+Key preprocessing steps include:
+- Calculating `Customer Age` at time of sale
+- Mapping building codes (1–5) to labels or using `pd.dummies`
+- Dealing with unnecessary spaces and incorrect data types
+- Creating new variables such as `age`
+- Merging the two datasets using `customerid`
+📝 [View preprocessing notebook](notebooks/1_data_preprocessing.ipynb)
+
+## 📊 Analysis 
+- Studied descriptive statistics focusing on buiding type, country, and state
+- Analyzed customer age in interval categories and properties
+- Examined the relationship between customer age and properties (covariance and correlation)
+📓 [View analysis notebook](notebooks/2_data_analysis.ipynb)
 
 ## 🛠️ Tools & Technologies
 - 🐍 Python (data preprocessing & analysis)
