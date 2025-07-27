@@ -35,12 +35,14 @@ Key preprocessing steps include:
 - Dealing with unnecessary spaces and incorrect data types
 - Creating new variables such as `age`
 - Merging the two datasets using `customerid`
+
 📝 [View preprocessing notebook](notebooks/1_data_preprocessing.ipynb)
 
 ## 📊 Analysis 
 - Studied descriptive statistics focusing on buiding type, country, and state
 - Analyzed customer age in interval categories and properties
 - Examined the relationship between customer age and properties (covariance and correlation)
+
 📓 [View analysis notebook](notebooks/2_data_analysis.ipynb)
 
 ## 🛠️ Tools & Technologies
