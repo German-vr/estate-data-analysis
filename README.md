@@ -23,10 +23,10 @@ This analysis seeks to understand the customer profile and building characterist
 - Most customers were aged **48–71**, primarily middle-aged and senior adults, with the majority residing in **California, USA**.
 - **Building 2** is the most in-demand, followed closely by building 3. **Building 5** is the least sought after.
 - **Building 2** is also the most expensive. **Building 4** offers the best deal satisfaction; it has the largest area and a moderate mean price.
-- A **sales boom occurred in 2007**, followed by a sharp decline in 2008.
+- A **sales boom occurred in 2007**, followed by a sharp decline in 2008 **due to the global financial crisis**.
 - In the U.S., sales were heavily concentrated in a few **top-performing states**.
 - The **negative covariance** between `age` and property `price` suggests that the two variables tend to move in opposite directions.
-- The **correlation value of -0.17** betwee `age` and property `price` indicates that the linear relationship is very weak, almost nonexistent.
+- The **correlation value of -0.17** between `age` and property `price` indicates that the linear relationship is very weak, almost nonexistent.
 
 ## 🧹 Preprocessing
 Key preprocessing steps include:
